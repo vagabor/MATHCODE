@@ -10,10 +10,18 @@ while val != "1" and val != "2":
     if val != "1" and val != "2":
         print("You must type 1 or 2")
 
-#if we enter  1 the following code will run
+#if we enter  1 the following code will run, here it will ask for the length of the 3 sides of the triangle 
+#then it will calculate the perimeter.
 
     if val == "1":
-      quit
+        side1 = input("Enter the length for the first side: ");
+        side2 = input("Enter the length for the second side: ");
+        side3 = input("Enter the length for the third side: ");
+        length1 = int(side1);
+        length2 = int(side2);
+        length3 = int(side3);
+        perimeter = length1 + length2 + length3;
+        print("Perimeter of Triangle is =", perimeter);
     
  #if we enter 2 the following code will run
  
