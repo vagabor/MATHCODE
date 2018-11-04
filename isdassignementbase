@@ -18,4 +18,12 @@ while val != "1" and val != "2":
  #if we enter 2 the following code will run
  
     if val == "2":
-      quit
+      a = float(input('Enter the length for the first side:'))
+      b = float(input('Enter the length for the second side:'))
+      c = float(input('Enter the length for the third side:'))
+
+      s = (a + b + c) / 2
+ # calculate the area
+ 
+      Area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
+      print(" The Area of a Triangle is %0.2f" %Area)
